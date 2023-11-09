@@ -92,16 +92,20 @@ h1 {
 	flex-basis: 10%;
 	color: rgb(159, 8, 8);
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	/* display: none; */
+}
+
+.notes-error-text {
+	display: none;
 }
 
 .notes-list {
 	width: 80%;
+	height: 100%;
 	flex-basis: 60%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
+	align-items: flex-start;
+	line-height: 0;
 }
